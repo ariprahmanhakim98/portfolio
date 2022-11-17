@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Roboto&display=swap');
+
+body {
+	font-family: inter;
+}
+
+.btn {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	padding: 12px 24px;
+	border-radius: 4px;
+	border: 1px solid transparent;
+}
+
+.navbar {
+	background-color: royalblue;
+}
+
+.navbar-brand {
+	color: white;
+}
+
+.navbar-brand:hover {
+	color: white;
+}
+
+.navbar-nav .nav-item .nav-link {
+	color: white;
+}
+
+.header-image img {	
+    height: 30vw;
+    width: 100%;
+    object-fit: cover;
+}
+
+#hero {
+	position: relative;
+	padding-top: 150px;
+	/*background-image: linear-gradient(180deg, #4169E1, #6495ED);*/
+}
+
+#hero .primary-btn {
+	margin-right: 12px;
+	background-color: royalblue;
+	color: white;
+	border: 1px solid transparent;
+}
+
+#hero .header-content h1 {
+	font-size: 3em;
+	font-weight: 700;
+}
+
+#experiences {
+	position: relative;
+}
+
+.list-dash .list-dash-item {
+	display: flex;
+	position: relative;
+	border-radius: 4px;
+}
+
+.list-dash .list-dash-item::before {
+	content: '';
+	left: 4px;
+	width: 2px;
+	height: 100%;
+	right: 4px;
+	position: absolute;
+	background-color: royalblue;
+}
+
+.list-dash .list-dash-item:last-child::before {
+	height: calc(100% - 30px);
+}
+
+.list-dash .list-dash-item .divider-dash {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: royalblue;
+}
+
+.list-dash .list-dash-item .wrap-detail {
+	padding: 20px;
+	margin-left: 25px;
+	background-color: #E5E5E5;
+	flex: 1;
+	margin-bottom: 30px;
+}
+
+.list-dash .list-dash-item .wrap-detail .dash-title {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+li {
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #808080;
+	margin: 0px;
+}
+
+#skills .card:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+#skills img {
+	width: 100%;
+	height: 5vw;
+	object-fit: contain;
+}
+
+/*@media (min-width: 768px) and (max-width: 991.98px) { ... }*/
+
+@media (max-width: 991.98px) {
+	.navbar-toggler {
+		border: 1px solid white;
+	}
+
+	.img-center {
+		text-align: center;
+	}
+
+	#hero .header-image {
+		margin-top: 40px;
+	}
+
+	.list-dash .md-margin {
+		margin-top: 30px;
+	}
+}
