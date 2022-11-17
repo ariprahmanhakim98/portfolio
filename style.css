@@ -119,6 +119,10 @@ li {
 	object-fit: contain;
 }
 
+#interests .carousel .carousel-caption {
+	text-shadow: 2px 2px 4px #000000;
+}
+
 @media (max-width: 991.98px) {
 	.navbar-toggler {
 		border: 1px solid white;
