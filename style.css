@@ -144,6 +144,11 @@ li {
 	background-color: black;
 }
 
+.dark .navbar .collapse button {
+	background-color: black;
+	color: white;
+}
+
 .dark #hero .header-content {
 	color: white;
 }
